@@ -1,6 +1,3 @@
-import React from 'react';
-import Button from '../components/Button/Button';
-
 const tg = window.Telegram.WebApp;
 
 export function useTelegram(){
