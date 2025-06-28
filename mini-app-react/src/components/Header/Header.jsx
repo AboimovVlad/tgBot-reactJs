@@ -10,7 +10,7 @@ export default function Header() {
             <Button onClick={onClose}>Закрыть</Button>
             
             <span className={'username'}>
-                {user?.username}
+                {user}
             </span>
         </header>
   )
