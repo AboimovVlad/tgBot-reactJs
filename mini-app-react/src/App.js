@@ -7,12 +7,12 @@ function App() {
 
   useEffect(() => {
     tg.ready();
-  }, [])
+  }, [tg])
 
   return (
     <div className="App">
       work
-      
+
       <button onClick={onToggleButton}>toggle</button>
     </div>
   );
