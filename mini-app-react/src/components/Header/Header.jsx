@@ -8,6 +8,7 @@ export default function Header() {
     return (
         <header className='header'>
             <Button onClic={onClose}>Закрыть</Button>
+            
             <span className={'username'}>
                 {user?.username}
             </span>
