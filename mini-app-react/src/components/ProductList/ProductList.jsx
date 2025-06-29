@@ -36,9 +36,9 @@ export default function ProductList() {
         setAddedItems(newItem)
 
         if(newItem.length === 0) {
-            tg.mainButton.hide();
+            tg.MainButton.hide();
         } else {
-            tg.mainButton.show();
+            tg.MainButton.show();
             tg.MainButton.setParams({
                 text: `купить за ${getTotalPrice(newItem)}`
             })
