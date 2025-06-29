@@ -12,7 +12,7 @@ export default function Form() {
         tg.MainButton.setParams({
             text: 'отправить данные'
         })
-    }, []);
+    }, [tg]);
 
     useEffect(() => {
         if (!street || !country){
@@ -55,7 +55,7 @@ export default function Form() {
 
             <select className='select' value={subject} onChange={onChangeSubject}>
                 <option value="physical">Физ. лицо</option>
-                <option value="legel">Юр. лицо</option>
+                <option value="legal">Юр. лицо</option>
             </select>
         </div>
   )
